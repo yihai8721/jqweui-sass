@@ -3,10 +3,14 @@
 #### Install Dependencies
 ```bash
 npm install
+
+cnpm install gulp-sass --save-dev
 ```
 
 #### Run development tasks:
 ```bash
 gulp
-[Run: http://localhost:8888/demos/](http://localhost:8888/demos/)
+
+Run:http://localhost:8888/demos/
+
 ```
