@@ -1,0 +1,50 @@
+{
+  "name": "jqweui",
+  "version": "0.4.3",
+  "description": "sass version",
+  "keywords": [
+    "weui",
+    "weui-sass",
+    "weixin",
+    "css",
+    "sass",
+    "mobile",
+    "replace",
+    "fs",
+    "es6"
+  ],
+  "style": "dist/css/weui.css",
+  "sass": "src/style/weui.sass",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yihai8721/jqweui-sass.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haibin Yu",
+  "homepage": "https://github.com/yihai8721/jqweui-sass.git",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-file-include": "1.1.0",
+    "gulp-header": "^1.7.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {
+    "gulp-file-include": "^1.1.0"
+  }
+}

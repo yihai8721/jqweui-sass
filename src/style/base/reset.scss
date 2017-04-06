@@ -1,0 +1,66 @@
+@import "fn";
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body, html {
+    height: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    line-height: 1.6;
+    font-family: $weuiFontDefault;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    @include setTapColor();
+}
+
+.color-primary {
+    color: #04BE02;
+}
+.color-danger,
+.color-error {
+    color: #f6383a;
+}
+.color-warning {
+    color: #f60;
+}
+.color-success {
+    color: #4cd964;
+}
+.bg-primary,
+.bg-success,
+.bg-danger,
+.bg-error,
+.bg-warning {
+    color: white;
+}
+.bg-primary {
+    background-color: #04BE02;
+}
+.bg-danger,
+.bg-error {
+    background-color: #f6383a;
+}
+.bg-warning {
+    background-color: #f60;
+}
+.bg-success {
+    background-color: #4cd964;
+}
+
+label > * {
+    pointer-events: none;
+}
